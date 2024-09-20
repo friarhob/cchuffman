@@ -4,13 +4,19 @@
 
 This is a Go study project based on the [Coding Challenges](https://codingchallenges.fyi) exercises, particularly [this one](https://codingchallenges.fyi/challenges/challenge-huffman).
 
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
+# Development Status
+
+This is still a work in progress. So far, we have:
+
+Validate | Done
+:--|:-:
+Calculating the frequency table | ✓
+Generating the prefix-code table | ✓
+Writing a header in the output file |
+Writing the compressed content in the output file | 
+Decoding a file | 
+Ensuring we are saving file size | 
+
 
 ## Features
 
@@ -74,3 +80,18 @@ For help or additional options, use:
 ./cchuffman --help
 ```
 
+## Exit Codes
+
+Code | Description
+:-:|---
+0 | OK
+1 | Error reading from file
+2 | Usage error
+
+## Test files
+
+* `135.0.txt` is [Les Misérables, from Project Gutenberg](https://www.gutenberg.org/files/135/135-0.txt)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
