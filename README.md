@@ -11,7 +11,7 @@ This is still a work in progress. So far, we have:
 Validate | Done
 :--|:-:
 Calculating the frequency table | ✓
-Generating the prefix-code table | ✓
+Generating the prefix-code table | 
 Writing a header in the output file |
 Writing the compressed content in the output file | 
 Decoding a file | 
